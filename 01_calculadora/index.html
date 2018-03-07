@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora - Desafio 1</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="../libs/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script type="text/javascript" src="scripts.js">
+		
+	</script>
+</head>
+<body>
+	<div id="container">
+		<div id="row">
+			<header>
+				<div class="full">
+					<h2>Calc</h2>
+				</div>
+			</header>
+
+			<main class="full">
+				<div class="form">
+					<form action="#" autocomplete="off">
+						<label for="number1">Number #1:</label>
+						<input type="text" id="number1" placeholder="#1" class="fstyle-1">
+						
+						<label for="number2">Number #2:</label>
+						<input type="text" id="number2" placeholder="#2" class="fstyle-1">
+
+						<span>
+							<button class="b-width" onclick="calc.sum()">Sum</button>
+							<input type="reset" name="reset" value="Reset" class="b-width">
+						</span>
+						<div id="result" class="f-link fstyle-1">
+							
+						</div>
+						<div id="errors">
+							
+						</div>
+					</form>
+				</div>
+			</main>
+
+			<footer>
+				<div class="full fstyle-2">
+						<i class="fa fa-copyright fa-lg" aria-hidden="true"></i>
+						marcotterra - 2018A
+				</div>
+			</footer>
+		</div>
+	</div>
+
+</body>
+</html>

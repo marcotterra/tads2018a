@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Desafio 1</title>
+
+
+
+        <script language="javascript">
+            function valida (){
+                var n1 = document.getElementById("num1").value;
+                var n2 = document.getElementById("num2").value
+                if(n1 > n2) {
+                    alert('Numero '+ n1  + ' eh maior');
+                } else {
+                    alert('Numero '+ n2  + ' eh maior');
+                }
+                return true;
+            }
+        
+        </script>
+
+
+    </head>
+    <body>
+        <form>
+            <h2>Numero 1</h2>
+            <input id="num1" type="text" placeholder="Numero 1">
+            
+            <br>
+            <h2>Numero 2</h2>
+            <input id="num2" type="text" placeholder="Numero 2">
+
+            <br>
+            <input type="submit" value="Comparar" onclick="valida()">
+        </form>
+    </body>
+</html>

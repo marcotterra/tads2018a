@@ -28,6 +28,8 @@
 
 						<div>
 							<button class="b-width" onclick="li.add()">Add</button>
+							<button class="b-width" onclick="li.show()">Show</button>
+							<button class="b-width" onclick="li.sReports()">Reports</button>
 						</div>
 
 
@@ -39,24 +41,64 @@
 							
 						</div>
 
-						<p>
-							---
-						</p>
 
-						<div class="grid-container">
+						<div class="box-container">
 							
-							<div id="persons" class="grid-box">
+							<div id="report" class="box">
+								<div class="box-header text-center">
+									Inviteds
+								</div>
 
-								<div class="grid-item text-center">Name</div>
-								<div class="grid-item text-center">Age</div>
-								
-								<div class="grid-item text-center">Gustavo</div>
-								<div class="grid-item text-center">19</div>
+								<div class="box-content">
+									<ul> 
+											<li>
+												<span class="box-item left text-center">Name</span>
+												<span class="box-item right text-center">Age</span>
+											</li>
+	
+									</ul>
+
+									<ul id="ul-table1"> 
+									</ul>
+								</div>
 								
 							</div>
 
-							<div id="report" class="grid-box">
+							<div id="report" class="box">
+								<div class="box-header text-center">
+									Reports
+								</div>
 
+								<div class="box-content">
+									<ul>
+										<li>
+											<span class="box-item left text-center">Category</span>
+											<span class="box-item right text-center">Amount</span>
+										</li>
+
+										
+										<li>
+											<span class="box-item left text-center">childrens</span>
+											<span id="child" class="box-item right text-center">  </span>
+										</li>
+										<li>
+											<span class="box-item left text-center">teenagers</span>
+											<span id="teenagers" class="box-item right text-center">  </span>
+										</li>
+
+										<li>
+											<span class="box-item left text-center">adults</span>
+											<span id="adults" class="box-item right text-center">  </span>
+										</li>
+
+										<li>
+											<span class="box-item left text-center fix-bottom">olds</span>
+											<span id="olds" class="box-item right text-center fix-bottom">  </span>
+										</li>
+
+									</ul>
+								</div>
+								
 							</div>
 
 						</div>

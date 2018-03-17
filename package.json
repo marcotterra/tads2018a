@@ -1,0 +1,14 @@
+{
+  "name": "tads2018a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/marcotterra/tads2018a.git",
+  "author": "marcotterra <marcotulio.mtt@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "browser-sync start --server --files *"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6"
+  }
+}

@@ -3,11 +3,8 @@
 
 <head>
     <title>Desafio 2 - Lista de convidados</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="../libs/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <script type="text/javascript" src="scripts.js">
-
-    </script>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+    <link href="../static/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -21,7 +18,7 @@
 
             <main class="full">
                 <div class="form">
-                    <form action="#">
+                    <form id="form">
                         <label for="shirt-p">P size: (R$ 10.00) </label>
                         <input type="text" placeholder="#" id="shirt-p"  autocomplete="off">
 
@@ -32,7 +29,10 @@
                         <input type="text" placeholder="#" id="shirt-g" autocomplete="off">
 
                         <p>
-                            <button onclick="ord.save()">Save Order</button>
+                            <button type="submit">Save Order</button>
+                        </p>
+                        <p id="errors">
+
                         </p>
                     </form>
 
@@ -78,6 +78,7 @@
         </div>
     </div>
 
+    <script type="text/javascript" src="./scripts2.js"></script>
 </body>
 
 </html>
